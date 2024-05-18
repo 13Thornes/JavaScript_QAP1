@@ -7,9 +7,9 @@ var events = require('events');
 var eventEmitter = new events.EventEmitter();
 
 var eventHandler = function () {
-    console.log('wee woo, wee woo!');
+    console.log('wee woo, wee woo!!!');
 }
 
-eventEmitter.on('ambulance', eventHandler);
+eventEmitter.on('siren', eventHandler);
 
-eventEmitter.emit('ambulance');
+eventEmitter.emit('siren');
