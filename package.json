@@ -11,5 +11,8 @@
     "url": "JavaScript_QAP1"
   },
   "author": "Samantha Thorne",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
 }
